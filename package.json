@@ -1,0 +1,34 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate typescript starter project",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "dev": "nodemon",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaind/ts-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "boilerplate",
+    "pnpm"
+  ],
+  "author": "Khai Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khaind/ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/khaind/ts-boilerplate#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "nodemon": "^2.0.13",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
